@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./tim-mossholder-07uiqD9LS6U-unsplash.jpg);
+}
+h1{
+    font-size: 2.5rem;
+    background-image: linear-gradient(120deg, #56ff40, #55ffda);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+li{
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#icon{
+    font-size: 40px;
+    color: rgb(51, 224, 255);
+    display: none;
+}
+
+
+
+
+
+@media(max-width:850px){
+    ul{
+        display: none;
+    }
+    #icon{
+        display: block;
+    }
+}
+@media(max-width:1400px){
+    body{
+        background-image: url(./tim-mossholder-07uiqD9LS6U-unsplash.jpg);
+    }
+}
+@media(max-width:1200px){
+    body{
+        background-image: url(./danielle-claude-belanger-7X0OA6i9a8I-unsplash.jpg);
+    }
+}
+@media(max-width:1000px){
+    body{
+        background-image: url(./heather-green-bH1X0C-H4ww-unsplash.jpg);
+    }
+}
